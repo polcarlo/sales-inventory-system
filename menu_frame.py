@@ -63,9 +63,9 @@ class MenuFrame(Frame):
                   anchor='w', command=self._run_migration)\
           .pack(fill='x', pady=6, ipady=2)
 
-        tk.Button(inner, text="Sync Code to GitHub", bg=bg_color, fg='black', bd=0,
-                  anchor='w', command=self._sync_github)\
-          .pack(fill='x', pady=6, ipady=2)
+        # tk.Button(inner, text="Sync Code to GitHub", bg=bg_color, fg='black', bd=0,
+        #           anchor='w', command=self._sync_github)\
+        #   .pack(fill='x', pady=6, ipady=2)
 
         tk.Button(inner, text="Logout", bg=bg_color, fg='black', bd=0,
                   anchor='w', command=callbacks['logout'])\
