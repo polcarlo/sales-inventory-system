@@ -1,0 +1,6 @@
+venv/
+exports/
+reports/
+__pycache__/
+
+system.db
